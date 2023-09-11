@@ -7,17 +7,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #6b7280;
+  background: #9ca3af;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #9ca3af;
+  background: #22c55e;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #9ca3af;
+  background: #22c55e;
 }
 
 @tailwind base;
@@ -25,9 +25,7 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    font-family: "Roboto", sans-serif;
-  }
+  button,
   textarea,
   input {
     outline: none;
@@ -41,6 +39,7 @@
 }
 
 body {
+  background: #323639;
   overflow: hidden;
   min-height: 100vh;
 }

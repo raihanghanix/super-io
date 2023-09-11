@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { PDFProvider } from "./contexts/PDFContext";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -13,8 +12,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       crossOrigin="anonymous"
       referrerPolicy="no-referrer"
     />
-    <PDFProvider>
-      <App />
-    </PDFProvider>
+    <App />
   </React.StrictMode>
 );
